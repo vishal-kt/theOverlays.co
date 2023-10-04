@@ -50,7 +50,7 @@ html,body{
 
 #video-container #play{
     padding: 3vw 2vw;
-    background-color: rgb(144, 17, 148);
+    background-color: rgba(144, 17, 148, 0.507);
     color: #f84545;
     position: fixed; 
     text-transform: uppercase;
