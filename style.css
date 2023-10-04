@@ -74,10 +74,14 @@ html,body{
 }
 
 #page2 .elem{
+    position: relative;
     height: 100%;
     width: 31%;
     overflow: hidden;
-    
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 #page2 .elem  img {
     width: 100%;
@@ -86,6 +90,22 @@ html,body{
     scale: 1.1;
     
 }
+
+
+#page2 .elem .dets{
+    height: 60px;
+    width: 80%;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 9; 
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% ); */
+    background-color: blanchedalmond;
+}
+
+
+
 
 #page3{
     height: 100vh;
@@ -158,4 +178,18 @@ html,body{
         scale: 1.1;
 
     }
+
+
+    
+#page2 .elem .dets{
+    height: 40px;
+    width: 80%;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 9; 
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% ); */
+    background-color: blanchedalmond;
+}
 }
