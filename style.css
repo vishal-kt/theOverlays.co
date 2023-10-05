@@ -111,10 +111,16 @@ html,body{
 
 
 #page3{
-    height: 100vh;
+    min-height: 120vh;
     width: 100%;
     background-color: rgb(161, 182, 240);
 
+}
+
+.child{
+    height: 55vh;
+    width: 40vw;
+    background-color: red;
 }
 
 @media (max-width:600px) {
